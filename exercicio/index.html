@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício HTML com JS</title>
+    <link rel="stylesheet" href="exercicio.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Exercício HTML com JS</h1>
+            <h3>Validação de inputs com JavaScript</h3>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <form id="formulario">
+                <div>
+                    <p class="message-success">Formulário enviado com sucesso.</p>
+                </div>
+                <input id="campo-a" type="number" placeholder="Campo A" required>
+                <div class="input-group">
+                    <input id="campo-b" type="number" placeholder="Campo B" required>
+                    <p class="message-error">O número B deve ser maior que o número A.</p>
+                </div>
+                <button id="button-submit" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <div class="container">
+        <hr />
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; <a target="_blank" href="https://github.com/gabrielgua">gabrielgua</a></p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
